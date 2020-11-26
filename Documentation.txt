@@ -1,0 +1,70 @@
+/*********************************************************************************************************************************************/
+//---                                                               Introduction                                                          ---//
+/*********************************************************************************************************************************************/
+This document is a collection of everything IT related I can remember and am willing to document about. I try to keep everything as structured
+as I can, to make this as easily understandable as possible. Every Element should be strictly about one thing, but may occasionally also 
+contain information about a related term.
+
+
+
+
+
+
+[TAG]
+
+TAG can be anything from simple commands all the way to Methods of programming. 
+>>Use Ctrl + F to easily find definitions in the document. The structure of Element tags is as follows:
+
+/*************/
+//           //
+/*************/
+Important title box structure
+
+///////////////
+/             /
+///////////////
+Normal title box structure
+
+/--- ---/
+Category
+
+|--- ---|
+Subcategory or code category
+
+>>
+Hint or additional text
+
+//
+Hint or additional text (code only)
+
+---------------
+Changes in language (used only with complete language changes over entire text blocks)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[WHILE]                                                        while (Statement)                                                             /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/--- Description ---/
+    The while statement is used to create a loop if the condition in between the () is met (in nerd language, when the statement returns true).
+    Any and all code in between the brackets {} will be executed.
+    >> Be careful with loops, they can very easily break your program if the condition is always true.
+
+/--- Code ---/
+    while () {  }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[FOR]                                                            for (Statement)                                                             /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/--- Description ---/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
