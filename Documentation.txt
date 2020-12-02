@@ -71,7 +71,9 @@ Changes in language (used only with complete language changes over entire text b
 /                                                            \______/   |__/|__/                                                              /
 /*********************************************************************************************************************************************/
 /--- Description ---/
-This chapter is about C#, the most amazing programming language I've ever known. Stick to C#, you won't regret it.
+This chapter is about C#, an Object oriented programming language that is widely known for being amazing to program with, including many 
+features. That C++ and especially C programmers dream about. Stick to C#, you won't regret it.
+>> (I never said this documentation would be unbiased)
 
 
 /*********************************************************************************************************************************************/
@@ -79,7 +81,17 @@ This chapter is about C#, the most amazing programming language I've ever known.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/[WHILE]                                                        while (Statement)                                                             /
+/[C#][IF]                                                              if
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[C#][WHILE]                                                          while                                                                   /
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /--- Description ---/
     The while statement is used to create a loop if the condition in between the () is met (in nerd language, when the statement returns true).
@@ -87,7 +99,10 @@ This chapter is about C#, the most amazing programming language I've ever known.
     >> Be careful with loops, they can very easily break your program if the condition is always true.
 
 /--- Code ---/
-    while () {  }
+    while (/* Condition for the loop */) 
+    {
+        // Code that gets executed every time the loop... Well... Loops.
+    }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -96,8 +111,8 @@ This chapter is about C#, the most amazing programming language I've ever known.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/[FOR]                                                            for (Statement)                                                             /
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[C#][FOR]                                                               for                                                                  /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /--- Description ---/
     For is very similar to while in the sense that they are both for creating loops. The only difference is that for has 3 parameters instead 
     of one. The first parameter gets executed regardless if the loop condition is met or not. The second parameter is the loop condition just
@@ -116,9 +131,51 @@ This chapter is about C#, the most amazing programming language I've ever known.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/[FOR]                                                            for (Statement)                                                             /
+/[C#][FOREACH]                                                         foreach                                                                /
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /--- Description ---/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[C#][ENUM]                                                         enum (Statement)                                                          /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/--- Description ---/
+Enums are like constants and arrays, only that they have 2 values per spot in the array and the structuring looks a bit weird. So, here's how 
+enums work: (at least in C#)
+
+/--- Code ---/
+enum enumname       // defines an enum with 5 values in it (starting value is 0 and for each new value it grows by 1)
+{
+    name1,
+    name2,
+    name3,
+    name4,
+    name5
+}
+
+//////////////////////////////////
+
+enum enumname2      // defines an enum with 5 custom values (when you stop specifying the value it will drop back to the normal increment, so               // NOT SURE, FACTCHECK
+{                   // name6 would be 5)
+    name1 = 1,
+    name2 = 2,
+    name3 = 3,
+    name4 = 4,
+    name5 = 5
+}
+
+//////////////////////////////////
+
+// how to get your enum values
+Console.WriteLine(enumname.name1);      // returns name1
+
+Console.WriteLine((int)enumname.name1)  // returns int value of name1
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -142,6 +199,36 @@ makes up for that with pure functionality and more control.
 
 
 /*********************************************************************************************************************************************/
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[C++][IF]                                                             if                                                                     /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/--- Description ---/
+The standard if statement. It's used in (literally) every programming language and C++ is not outside of that. The only thing that changes
+slightly with every programming language's if is the Syntax. And that is what you see below you.
+
+/--- Code ---/
+if (/* Condition */){
+    // Code to execute if Condition is true
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/[C++][WHILE]                                                        while                                                                    /
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/--- Description ---/x
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
